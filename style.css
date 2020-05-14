@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #6B5B5C;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction{
+    background-color: white;
+    width:75%;
+}
+
+.introduction img{
+    width: 20%;
+    height: auto;
+}
