@@ -7,6 +7,11 @@
     <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
+
+
+
 
 </head>
 
@@ -15,32 +20,54 @@
     <div class="container">
     <!-- Introduction box -->
     <div class="introduction">
-        <h1>Hi, I'm Rohit!</h1>
-        <p>I'm a Geomatics Engineering student with a passion for web development and spatial data visualization.</p>
+        <div id='introInfo'>
+        <h1><span style="color:#F8D04F;">Hi, I'm</span> Rohit!</h1>
+        <p>I'm a Geomatics Engineering student with a passion<br> for web development and spatial data visualization.<br>Check out my resume and projects below.</p>
+        <button class="resume"type="button">Resume</button>
+        </div>
         <img src="images\Introduction.SVG">
     </div>
     <!-- Skills Box -->
     <div class="skills">
-        <h1>My Skills</h1>
+        <h1>SKILLS</h1>
         <!-- List container to flex -->
-        <div id='skills'>
+        <div id='logos'>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Node.Js</li>
-                <li>React</li>
+                <li><i class="fab fa-html5"></i> HTML</li>
+                <li><i class="fab fa-css3"></i> CSS</li>
+                <li><i class="fab fa-js"></i> JavaScript</li>
+                <li><i class="fab fa-node-js"></i> Node.Js</li>
+                <li><i class="fab fa-react"></i> React</li>
+                <li><i class="fab fa-git"></i> Git</li>
             </ul>
         </div>
     </div>
     
     <!-- Projects Box -->
     <div class="projects">
-        <h1>Projects</h1>
+        <h1>PROJECTS</h1>
+        <!-- Slider -->
+        <div class="slider"></div>
     </div>
     <!-- Contact Box -->
     <div class="contact">
-        <h1>Contact</h1>
+        <h1>CONTACT</h1>
+        <div class="formFields">
+            <input type="type" class="input" placeholder="Name">
+            <input type="type" class="input" placeholder="Email Address">
+            <input type="type" class="input" placeholder="Subject">
+        </div>
+        <div class="message">
+            <input type="type" class="input" placeholder="Message">
+        </div>
+        <button class="email" type="button">Send Email</button>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fas fa-file"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+
     </div>
     </div>
 </body>
