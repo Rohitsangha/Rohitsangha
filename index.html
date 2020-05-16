@@ -22,10 +22,10 @@
     <div class="introduction">
         <div id='introInfo'>
         <h1><span style="color:#F8D04F;">Hi, I'm</span> Rohit!</h1>
-        <p>I'm a Geomatics Engineering student with a passion<br> for web development and spatial data visualization.<br>Check out my resume and projects below.</p>
+        <p>I'm a Geomatics Engineering student with a passion <span id="p1"> for web development and spatial data visualization.</span><span id="p2"> Check out my resume and projects below.</span></p>
         <button class="resume"type="button">Resume</button>
         </div>
-        <img src="images\Introduction.SVG">
+        <div class="image"><img src="images\Introduction.SVG"></div>
     </div>
     <!-- Skills Box -->
     <div class="skills">
@@ -33,12 +33,14 @@
         <!-- List container to flex -->
         <div id='logos'>
             <ul>
-                <li><i class="fab fa-html5"></i> HTML</li>
-                <li><i class="fab fa-css3"></i> CSS</li>
-                <li><i class="fab fa-js"></i> JavaScript</li>
-                <li><i class="fab fa-node-js"></i> Node.Js</li>
-                <li><i class="fab fa-react"></i> React</li>
-                <li><i class="fab fa-git"></i> Git</li>
+                <li><i class="fab fa-html5"></i> <span id='text'>HTML</span></li>
+                <li><i class="fab fa-css3"></i> <span id='text'>CSS</span></li>
+                <li><i class="fab fa-js"></i> <span id='text'>JavaScript</span></li>
+                <li><i class="fab fa-node-js"></i> <span id='text'>Node.Js</span></li>
+                <li><i class="fab fa-react"></i> <span id='text'>React</span></li>
+                <li><i class="fab fa-git"></i> <span id='text'>Git</span></li>
+                <li><i class="fas fa-database"></i> <span id='text'>Temp</span></li>
+                <li><i class="fab fa-envira"></i> <span id='text'>Temp</span></li>
             </ul>
         </div>
     </div>
@@ -60,7 +62,7 @@
         <div class="message">
             <input type="type" class="input" placeholder="Message">
         </div>
-        <button class="email" type="button">Send Email</button>
+        <button class="email" type="button"><i class="far fa-envelope"></i></button>
     </div>
     <!-- Footer -->
     <div class="footer">

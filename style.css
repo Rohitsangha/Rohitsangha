@@ -28,16 +28,29 @@
     flex-direction: column;
 }
 
-.introduction img{
+.image{
     width: 20%;
+}
+.introduction img{
+    width: 100%;
     height: auto;
     position: relative;
     left:100px;
 }
 
 .introduction p{
+    
     margin-top: 5px;
     color:#F8D04F;
+}
+
+#p1{
+
+    display: block;
+}
+
+#p2{
+    display: block;
 }
 
 .introduction h1{
@@ -68,23 +81,39 @@ h1{
     justify-content: center;
     width:75%;
     margin-top: 60px;
-    list-style: none;
     text-align: center;
     
-    
+}
+
+ul{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    list-style: none;
+    justify-content: center;
 }
 
 #logos li {
+    width:25%;
     margin-top: 20px;
-    color:#F8D04F;
-    display:inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 25px;
+    color: #ffffff;
+    font-size: 18px;
 
-    
 }
 
+#logos li:nth-child(7){
+   padding-right: 38px;
+}
+
+#logos li:nth-child(8){
+    padding-right: 15px;
+ }
+
+#logos i{
+    color: #F8D04F;
+    font-size: 25px;
+}
 .projects {
     text-align: center;
     margin-top: 60px;
@@ -145,18 +174,20 @@ h1{
     height: 150px;
     border: 2px solid #DBAB23;
     border-radius: 5px;
+    text-align: start;
 }
 
 .email {
-    
+    background-color: transparent;
     width: 25%;
     padding: 10px 10px 10px 10px;
     margin-top: 10px;
-    border: 1px solid #F8D04F;
+    border: 2px solid #F8D04F;
     position: relative;
     font-family: 'Montserrat', sans-serif;
-    color:#6B5B5C;
-    background-color: #DBAB23;
+    color:#F8D04F;
+    font-size: 1.1em;
+    border-radius: 10px;
 }
 
 .footer{
@@ -178,4 +209,91 @@ h1{
 a {
     color: inherit;
     text-decoration: none;
+}
+
+@media (max-width: 950px){
+    .introduction{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .image{
+        width: 30%;
+    }
+    .introduction img{
+
+        margin-top: 20px;
+        left: 7px;
+    }
+
+    .slider{
+        width: 100%;
+    }
+
+    .formFields{
+        width: 100%;
+    }
+
+    .message{
+        width: 100%;
+    }
+
+    .email{
+        width: 50%;
+    }
+
+    ul{
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px){
+    .image{
+        width: 40%;
+    }
+}
+
+@media (max-width: 640px){
+    #text{
+        display: none;
+    }
+
+    #logos li:nth-child(7){
+        padding-right: 0px;
+     }
+     
+     #logos li:nth-child(8){
+         padding-right: 0px;
+      }
+}
+
+@media (max-width: 570px){
+
+    #introInfo {
+        text-align: center;
+    }
+    .image{
+        width: 50%;
+    }
+
+    .resume{
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #p1{
+        display: inline;
+    }
+
+    #p2{
+        display: inline;
+    }
+
+}
+
+@media (max-width: 400px){
+    .image{
+        width: 60%;
+    }
 }
