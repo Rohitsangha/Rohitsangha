@@ -6,11 +6,11 @@
 
 .container{
     width: 100%;
-    background-color: #1C4B88;
+    background-color: #f6f9fc;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #ffffff;
+    color: #747fe0;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }
@@ -41,7 +41,8 @@
 .introduction p{
     
     margin-top: 5px;
-    color:#F4C91C;
+    /* color:#7795f8; */
+    color: #525f7f;
 }
 
 #p1{
@@ -54,9 +55,9 @@
 }
 
 .introduction h1{
-    font-size: 40px #F4C91C;
-    text-shadow: -4px 3px 0 #AC8502;
-    
+    color:  #92eac0;
+    font-size: 40px;
+    text-shadow: -4px 3px 0  #5a5d7a;
 
 }
 
@@ -65,26 +66,38 @@ h1{
 }
 
 .resume{
+
     width:25%;
-    padding: 4px 6px 4px 6px;
+    padding: 10px 14px;
+    border: none;
     margin-top: 20px;
-    border: 1px solid #F4C91C;
-    border-radius: 10px;
+    border-radius: 4px;
     position: relative;
     font-family: 'Montserrat', sans-serif;
-    color:#F4C91C;
-    background-color: Transparent;
+    color:#ffffff;
+    background-color: #747fe0;
+    font-size: 14px;
+    box-shadow: 1px 5px 6px rgba(0,0,0,0.5);
 
 }
 
+#gButton{
+    background-color: #5a5d7a;
+}
+
+
 .projectButton{
     width:25%;
-    border: 1px solid #1C4B88;
+    padding: 10px 14px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
-    color:#1C4B88;
-    background-color: Transparent;
-    border-radius: 10px;
-    margin-top: 8px;
+    color:#ffffff;
+    background-color: #747fe0;
+    font-size: 14px;
+    box-shadow: 1px 5px 6px rgba(0,0,0,0.5);
 }
 
 .skills {
@@ -107,7 +120,7 @@ ul{
 #logos li {
     width:25%;
     margin-top: 20px;
-    color: #ffffff;
+    color: #525f7f;
     font-size: 18px;
 
 }
@@ -121,7 +134,7 @@ ul{
  }
 
 #logos i{
-    color: #F4C91C;
+    color: #7795f8;
     font-size: 25px;
 }
 .projects {
@@ -134,10 +147,14 @@ ul{
     position: relative;
 }
 
+.pbuttons{
+    width:100%;
+}
+
 .slider{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 50%;
-    background-color: #F4C91C;
+    background-color: #ffffff;
     height:400px;
     border-radius: 10px;
     box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
@@ -149,6 +166,7 @@ ul{
     height:35px;
     width:35px;
     border-radius: 50%;
+    color:#5a5d7a;
 }
 
 #left:hover {
@@ -219,19 +237,21 @@ ul{
     padding: 5px;
     margin: 10px;
     background: transparent;
-    border-bottom: 2px solid #F4C91C;
-    color: #ffffff;
+    border-bottom: 2px solid #525f7f;
+    color: #525f7f;
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 .input::placeholder{
-    color:#F4C91C;
+    color:#525f7f;
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 .message input{
     height: 150px;
-    border: 2px solid #F4C91C;
+    border: 2px solid #525f7f;
     border-radius: 5px;
     text-align: start;
 }
@@ -241,20 +261,19 @@ ul{
     width: 25%;
     padding: 10px 10px 10px 10px;
     margin-top: 10px;
-    border: 2px solid #F4C91C;
+    border: 2px solid #525f7f;
     position: relative;
     font-family: 'Montserrat', sans-serif;
-    color:#F4C91C;
+    color:#525f7f;
     font-size: 1.1em;
     border-radius: 10px;
 }
 
 .footer{
     margin-top: 60px;
-    border-top: 1px solid#012565;
     height:50px;
     width: 100%;
-    background-color: #F4C91C;
+    background-color: #5a5d7a;
     text-align: center;
     font-size: 30px;
 }
@@ -263,6 +282,7 @@ ul{
     position: relative;
     top:5px;
     margin: 0 20px;
+    color: #ffffff;
 }
 
 a {
