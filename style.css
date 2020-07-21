@@ -15,6 +15,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .introduction{
     margin-top: 100px;
     width:75%;
@@ -248,18 +249,16 @@ input[type=text] {
 .formFields {
     display: flex;
     flex-direction: column;
-    width:50%;
+    width:34vw;
     max-width: 650px;
     
 }
 
 .message{
-    display: flex;
-    flex-direction: column;
+    width:100%;
 
-    max-width: 650px;
-    width:50%;
 }
+
 
 .input{
     border: none;
@@ -280,7 +279,7 @@ input[type=text] {
 }
 
 .message textarea{
-    height: 150px;
+    height:150px;
     border: 2px solid #525f7f;
     text-align: start;
 }
@@ -297,6 +296,12 @@ input[type=text] {
     background-color: #747fe0;
     font-size: 16px;
     box-shadow: 1px 5px 6px rgba(0,0,0,0.5);
+}
+
+.contactInputs{
+    margin-top: 20px;
+    font-size: 20px;
+    color:#5a5d7a;
 }
 
 .footer{
