@@ -13,4 +13,4 @@ var flkty = new Flickity( '.main-carousel', {
   
 });
 
-document.querySelector(".message").addEventListener("click", (event) => {event.preventDefault()});
+
